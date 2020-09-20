@@ -25,7 +25,7 @@ function setup() {
 
 
 
-    g1 = new Ground(650,155,100,10);
+    g1 = new Ground(650,155,300,10);
     ground = new Ground(400,350,800,10)
 
     rock = new Rock();
