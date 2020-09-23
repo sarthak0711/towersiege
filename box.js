@@ -35,5 +35,12 @@ class Box{
       //console.log(this.body.speed)
 
     }
+    score(){
+
+      if(this.visiblity<0 && this.visiblity>-105){
+        score++;
+      }
+
+    }
 
 }
