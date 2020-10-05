@@ -8,9 +8,9 @@ var engine, world;
 var box,box1,box2,box3,box4,rock,box5,box6,ground,slingshot,g1
 var b1,b2,b3,b4,b5,box6,score,backgroundImg
 
-function preload(){
+/*function preload(){
   getTime();
-}
+}*/
 
 function setup() {
   createCanvas(800,400);
@@ -96,7 +96,7 @@ function mouseReleased(){
     console.log("here")
 }
 
-async function getTime(){
+/*async function getTime(){
   var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var rData = await response.json();
   var rDateTime = rData.datetime;
@@ -107,4 +107,4 @@ async function getTime(){
   } else {
       backgroundImg=loadImage("sprites/bg2.jpg")
   }
-}
+}*/
